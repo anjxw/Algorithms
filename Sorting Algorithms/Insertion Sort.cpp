@@ -1,10 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Selection sort algorithm O(n^2)
-// Repeatedly finds the minimum element in an unsorted portion of an array
-// Swaps it with the element at the beginning of that portion
-// Inefficient for large arrays, can be useful for sorting small arrays or arrays with large items
+// Insertion sort algorithm O(n^2)
+// iteratively builds a sorted portion of an array by taking each unsorted element and inserting it in its proper place in the sorted portion. 
+// Efficient for small and partially sorted arrays
 
 void insertionSort (vector < int >&values)
 {
