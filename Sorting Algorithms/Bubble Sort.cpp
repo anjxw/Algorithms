@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 // This code implements the bubble sort algorithm, which repeatedly swaps adjacent elements if they are in the wrong order,
